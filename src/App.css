@@ -593,9 +593,17 @@ button[type='submit']:disabled {
     display: none;
   }
 
-  /* Hide cosmic logo on mobile */
+  /* Reposition cosmic logo on mobile */
   .cosmic-logo {
-    display: none;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+  }
+
+  .cosmic-logo img {
+    width: 80px;
+    height: 80px;
   }
 
   /* Main window always visible, not closeable */
