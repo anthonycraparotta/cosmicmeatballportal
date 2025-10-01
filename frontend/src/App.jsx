@@ -3,7 +3,7 @@ import './App.css'
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 const TARGET_URL = 'https://robotsgamedemo-production.up.railway.app/'
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001'
+const API_URL = import.meta.env.VITE_API_URL || '' // Use relative path for production
 
 const initialFormState = {
   name: '',

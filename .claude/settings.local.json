@@ -7,7 +7,16 @@
       "Bash(npm install)",
       "Bash(npm start)",
       "Bash(npm run dev:*)",
-      "Bash(git commit -m \"$(cat <<''EOF''\nAdd retro Windows 95-style Cosmic Meatball Portal\n\nFeatures:\n- Windows 95-themed portal with desktop icons and taskbar\n- Game Portal window with form submission to Supabase\n- My Files folder with game thumbnails and image viewer\n- Background music (hacker.mp3) with mute/unmute controls\n- Desktop icons: Game Portal, My Files, Music, Network (Instagram link)\n- System tray with speaker icon and clock\n- Retro animations for window open/close\n- Responsive design for desktop and mobile\n\nFrontend: React + Vite with Windows 95 styling\nBackend: Express.js + Supabase for lead capture\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd retro Windows 95-style Cosmic Meatball Portal\n\nFeatures:\n- Windows 95-themed portal with desktop icons and taskbar\n- Game Portal window with form submission to Supabase\n- My Files folder with game thumbnails and image viewer\n- Background music (hacker.mp3) with mute/unmute controls\n- Desktop icons: Game Portal, My Files, Music, Network (Instagram link)\n- System tray with speaker icon and clock\n- Retro animations for window open/close\n- Responsive design for desktop and mobile\n\nFrontend: React + Vite with Windows 95 styling\nBackend: Express.js + Supabase for lead capture\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(gh repo view:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(npm run build:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
