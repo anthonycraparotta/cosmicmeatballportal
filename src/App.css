@@ -578,14 +578,45 @@ button[type='submit']:disabled {
   padding: 0 4px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .app-shell {
-    height: calc(90vh - 40px);
+    height: 100vh;
   }
 
+  /* Hide desktop icons on mobile */
+  .desktop-icons {
+    display: none;
+  }
+
+  /* Hide taskbar on mobile */
+  .taskbar {
+    display: none;
+  }
+
+  /* Hide cosmic logo on mobile */
+  .cosmic-logo {
+    display: none;
+  }
+
+  /* Main window always visible, not closeable */
   .terminal-card {
-    width: 95vw;
-    max-height: calc(85vh - 40px);
+    width: 90vw;
+    max-height: 85vh;
+  }
+
+  .terminal-card.window-closed {
+    transform: scale(1);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .terminal-card.window-open {
+    animation: none;
+  }
+
+  /* Hide window controls (minimize, maximize, close) on mobile */
+  .window-controls {
+    display: none;
   }
 
   button[type='submit'] {
@@ -593,26 +624,12 @@ button[type='submit']:disabled {
     justify-self: stretch;
   }
 
+  /* Hide folder and image viewer on mobile */
   .folder-window {
-    width: 95vw;
-    max-height: calc(80vh - 40px);
-  }
-
-  .folder-thumbnails {
-    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    display: none;
   }
 
   .image-viewer {
-    width: 95vw;
-    max-height: calc(80vh - 40px);
-  }
-
-  .start-button {
-    font-size: 11px;
-    padding: 3px 6px;
-  }
-
-  .clock {
-    font-size: 10px;
+    display: none;
   }
 }
