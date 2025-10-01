@@ -126,9 +126,11 @@ input:focus {
 @media (max-width: 600px) {
   body {
     padding: 1.5rem 1rem;
+    min-height: 90vh;
   }
 
   .app {
     padding: 2rem 1.5rem;
+    min-height: 90vh;
   }
 }
