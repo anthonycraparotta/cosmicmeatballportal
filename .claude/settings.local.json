@@ -16,7 +16,9 @@
       "Bash(netstat:*)",
       "Bash(findstr:*)",
       "Bash(taskkill:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "WebFetch(domain:github.com)",
+      "Read(//c/Users/User/Robots Game/RWM/**)"
     ],
     "deny": [],
     "ask": []
