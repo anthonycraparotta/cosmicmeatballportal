@@ -1,0 +1,53 @@
+diff --git a/README.md b/README.md
+index f8a757027049fa06793ed1a5cd118171b91c9fc2..8c06b4dea29ba7569f40cd49fe13d082927e7f53 100644
+GIT binary patch
+literal 1272
+zcmZux!D<^Z5WVkL4CIo4olr_C<W@`@3Mmav+Dj?ytajF`S}UoN*2cH~L;tW}(kCf)
+z5?b(KSL^rY&Ac}{qm_%3R`f|Yb!-gXxscd2&BLf81@SKG<idfJvx&8hlt!T;;B6_k
+zr@;kc8d+^6Eb(cQo>(b~F(aZg0str4YjAf$o^`-q_BxHgbr}a1ZSgWVW88i@drBO)
+zm-K)_Up^9Kbh9>@0+_Y1O2oi?)ky%1y3ZwqzO_Xa=&suD=f~#@>QPXY7BVW}yM%~x
+z>d;B>v)z($8wf}eCT-c&Iy*MH=cJuo(8lPbAlK@toWw;Dz#yyS6y@hERzZj>TGp;}
+zDbfv3LcL6mT=@u<0skx$PymZfnhnGRDMRx~`pc#{JEI#(N!tzGCk{Alnh(KEh1v)A
+z1N~5NE-iBZaLb^G&y8871$5{W#~~F!FFP^LPbdbRVJG3bY1+2!IF5~igV{@f8|$Yd
+zUwIC*1@DfQOZ-L`Q%2=rK&<yht1^s}v%F(%xP#%aI~&4%A94<S&?rz[c~-YpLYlF
+z4?M%$c1+1%UtJle*yLK*Z(hB9-CopbygO0ftDt>~O|zsn>wVPN(w|?y>#$1cl8t{G
+zuhxz((d7CWN|A5F3Zb>>@;PM=Twh6V#7ba9jnN2DDrcf35>`D^;e+h7>?`Q5z8npE
+zfkNESqdB}l8;qzz*O>bI`&+zMwRvQvotk_s)u1;s6hTIv4x&*Eq|fj+Ysk}CozlCodex coding agent wrote this but could not push:
+z!I7}zWr0@fhXqB&7A2(y`7z%z3<y@tx>j>c$lKErls&gO&N*B%!D?j1&j@*8MTNZi
+z5(4gn39j=-3e&CQJ_q@<Jau*I4Y3JalJT@Y`KmZ>6|S29Z&OydmgsT6=$(+^gPRe#
+e*+N0SkFa|qk`=ef`BH9jorc?aHXhd-g#86J-p6qO
+
+literal 54
+zcmezWPnki1!I>eSp_n0;A(J5)$n#}LWk_TwVMqd!IY6ku5CD`f0*Zk6ybN3n08)7h
+AiU0rr
+
+diff --git a/frontend/.gitignore b/frontend/.gitignore
+new file mode 100644
+index 0000000000000000000000000000000000000000..a547bf36d8d11a4f89c59c144f24795749086dd1
+--- /dev/null
++++ b/frontend/.gitignore
+@@ -0,0 +1,24 @@
++# Logs
++logs
++*.log
++npm-debug.log*
++yarn-debug.log*
++yarn-error.log*
++pnpm-debug.log*
++lerna-debug.log*
++
++node_modules
++dist
++dist-ssr
++*.local
++
++# Editor directories and files
++.vscode/*
++!.vscode/extensions.json
++.idea
++.DS_Store
++*.suo
++*.ntvs*
++*.njsproj
++*.sln
++*.sw?
